@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+/*html {
+	height: 100%;
+	overflow: hidden;
+}*/
+
+@font-face {
+	font-family: titleFont;
+	src: url(ufonts.com_star-trek-tng-title.ttf);
+}
+
+@font-face {
+	font-family: lcarsFont;
+	src: url(okuda.otf);
+}
+
+body {
+	background-image: url("../images/warp_stars.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	min-height: 100%;
+	font-size: 48px;
+	line-height: 150%;
+	font-family: lcarsFont, sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+.wrapper {
+	width: 1200px;
+	min-height: 100%;
+	overflow: hidden;
+	margin: 40px auto;
+	padding: 0 20px;
+}
+
+h1 {
+	font-family: titleFont, sans-serif;
+	color: #137efe; /* blue */
+	font-size: 72px;
+	padding: 10px;
+}
+
+.timerDiv {
+	color: #f39100; /* orange */
+}
+
+.questionDiv {
+	color: #8e8eed; /* light blue */
+}
+
+.answerDiv {
+	color: #cc99cc; /* lavender */
+}
