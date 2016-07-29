@@ -44,14 +44,14 @@ h1 {
 	padding: 10px;
 }
 
-.timerDiv {
+#timerDiv {
 	color: #f39100; /* orange */
 }
 
-.questionDiv {
+#questionDiv {
 	color: #8e8eed; /* light blue */
 }
 
-.answerDiv {
+#answerDiv {
 	color: #cc99cc; /* lavender */
 }
