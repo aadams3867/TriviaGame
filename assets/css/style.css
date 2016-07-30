@@ -37,11 +37,16 @@ body {
 	padding: 0 20px;
 }
 
-h1 {
+h1, h2 {
 	font-family: titleFont, sans-serif;
 	color: #137efe; /* blue */
 	font-size: 72px;
 	padding: 10px;
+}
+
+h2 {
+	font-size: 48px;
+	padding-right: 16px;  /* The font is a little lop-sided, so this adjusts for that */
 }
 
 #timerDiv {
@@ -52,6 +57,16 @@ h1 {
 	color: #8e8eed; /* light blue */
 }
 
-#answerDiv {
+#resultDiv, #choice1, #choice2, #choice3, #choice4 {
 	color: #cc99cc; /* lavender */
+}
+
+button {
+  	width:200px;
+  	height:100px;
+  	margin: 50px 0;
+}
+
+img {
+	width: 400px;
 }
